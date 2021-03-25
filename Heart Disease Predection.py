@@ -11,13 +11,6 @@ if __name__ == "__main__":
     from matplotlib import rcParams
     import seaborn as sns
 
-    # #Getting rid of pesky warnings
-    # def warn(*args, **kwargs):
-    #     pass
-    # import warnings
-    # warnings.warn = warn
-    # np.warnings.filterwarnings('ignore')
-
     #Adding coloumn names as per dataset
     column_names = [
             "age", #2
